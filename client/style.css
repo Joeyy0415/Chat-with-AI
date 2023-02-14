@@ -51,6 +51,7 @@ body {
 
 .ai {
   background: #fff; /* changed bot message holder color to white */
+  margin-left: auto;
 }
 
 .chat {
@@ -100,7 +101,7 @@ body {
   justify-content: center;
   align-items: center;
   
-  margin-right: auto; /* moves the profile container to the right end */
+  margin-left: auto; /* moves the profile container to the right end */
 }
 
 .profile img {
