@@ -86,7 +86,7 @@ async function handleSubmit(e) {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://brainbot.onrender.com', {
+    const response = await fetch('https://brainbot111.azurewebsites.net', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
