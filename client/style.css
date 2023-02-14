@@ -37,7 +37,6 @@ body {
 
   padding-bottom: 20px;
   scroll-behavior: smooth;
-  justify-content: flex-start;
 }
 
 /* hides scrollbar */
@@ -51,8 +50,11 @@ body {
 }
 
 .ai {
-  background: #fff; /* changed bot message holder color to white */
-  margin-right: auto;
+  background: #fff;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .chat {
@@ -67,16 +69,7 @@ body {
 }
 
 .ai .chat {
-   width: 100%;
-  max-width: 1280px;
-  margin: 0 auto;
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 10px;
-  
-  justify-content: flex-start; /* aligns child elements to the right end */
+justify-content: flex-end;
 }
 
 .profile {
@@ -92,17 +85,8 @@ body {
 }
 
 .ai .profile {
-  width: 36px;
-  height: 36px;
-  border-radius: 5px;
-
-  background: #5436DA;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  margin-right: auto; /* moves the profile container to the right end */
+  margin-left: 10px;
+  margin-right: 0;
 }
 
 .profile img {
@@ -125,10 +109,11 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 
-  background-color: #007bff; /* changed user message holder color to blue */
-  border-radius: 10px; /* added round corners to message holders */
-  padding: 10px; /* added padding to message holders */
-  margin-left: auto
+  background-color: #007bff;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 0;
 } 
 
 .message {
