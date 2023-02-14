@@ -8,13 +8,13 @@
 }
 
 body {
-  background: #fff; /* changed background color to white */
+  background: #fff;
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #fff; /* changed background color to white */
+  background: #fff;
 
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #c7c7cc; /* changed bot message holder color to gray */
+  background: #e1e8ed;
 }
 
 .chat {
@@ -65,6 +65,7 @@ body {
 }
 
 .profile {
+  position: relative;
   width: 36px;
   height: 36px;
   border-radius: 5px;
@@ -74,6 +75,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.profile::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  border-width: 5px 5px 0;
+  border-style: solid;
+  border-color: #5436DA transparent;
 }
 
 .ai .profile {
@@ -86,23 +98,34 @@ body {
   object-fit: contain;
 }
 
-.message {
+.user-message {
   flex: 1;
-
-  color: #dcdcdc;
+  background: #e1e8ed;
+  border-radius: 10px;
+  padding: 10px;
+  color: #333;
   font-size: 20px;
-
-  max-width: 100%;
-  overflow-x: scroll;
-
-  white-space: pre-wrap;
+  max-width: 80%;
+  overflow-x: hidden;
+  white-space: pre-wrap; 
 
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
 
-  background-color: #007bff; /* changed user message holder color to blue */
-  border-radius: 10px; /* added round corners to message holders */
-  padding: 10px; /* added padding to message holders */
+.ai-message {
+  flex: 1;
+  background: #0084ff;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+  max-width: 80%;
+  overflow-x: hidden;
+  white-space: pre-wrap; 
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 /* hides scrollbar */
@@ -130,19 +153,3 @@ textarea {
 
   padding: 10px;
   background: transparent;
-  border-radius: 5px;
-  border: none;
-  outline: none;
-}
-
-button {
-  outline: 0;
-  border: 0;
-  cursor: pointer;
-  background: transparent;
-}
-
-form img {
-  width: 30px;
-  height: 30px;
-}
