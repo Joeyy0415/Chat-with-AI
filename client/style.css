@@ -152,6 +152,7 @@ form {
   margin: 0 auto;
   padding: 10px;
   background: #02f7fc;
+  border-radius: 10px;
 
   display: flex;
   flex-direction: row;
