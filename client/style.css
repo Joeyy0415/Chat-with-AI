@@ -135,7 +135,7 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 
-  background-color: #02f7fc; /* changed user message holder color to blue */
+  background-color: #9ba0a0; /* changed user message holder color to blue */
   border-radius: 10px; /* added round corners to message holders */
   padding: 10px; /* added padding to message holders */
   margin-left: 10px;
@@ -151,7 +151,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #02f7fc;
+  background: #9ba0a0;
   border-radius: 10px;
 
   display: flex;
