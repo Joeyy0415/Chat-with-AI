@@ -89,13 +89,11 @@ body {
 }
 
 .ai .profile {
-width: 36px;
+  width: 36px;
   height: 36px;
   border-radius: 5px;
-
-  background-image: url("Brainbot_avatar.jpg");
-  background-size: cover;
-
+  background: #fff;
+  border: 2px solid #0a84ff;
   display: flex;
   justify-content: center;
   align-items: center;
