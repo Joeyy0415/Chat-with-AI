@@ -89,7 +89,6 @@ body {
 }
 
 .ai .profile {
-  right: 10px; /* position the profile container to the left */
   width: 36px;
   height: 36px;
   border-radius: 5px;
@@ -97,7 +96,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50px
 }
 
 .ai .message {
@@ -109,10 +107,11 @@ body {
   white-space: pre-wrap;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  background-color: #87CEEB;
+  background-color: #1E90FF;
   border-radius: 10px;
   padding: 10px;
-  margin-right: 50px; /* adjust margin to leave space for the profile container */
+  margin-left: 10px;
+  
 } 
 
 .message {
@@ -132,6 +131,7 @@ body {
   background-color: #c7c7cc; /* changed user message holder color to blue */
   border-radius: 10px; /* added round corners to message holders */
   padding: 10px; /* added padding to message holders */
+  margin-left: 10px;
 }
 
 /* hides scrollbar */
