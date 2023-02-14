@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #e1e8ed;
+  background: #c7c7cc;
 }
 
 .chat {
@@ -77,15 +77,16 @@ body {
   align-items: center;
 }
 
-.profile::after {
+.profile::before {
   content: "";
   position: absolute;
-  left: 50%;
   bottom: -5px;
+  left: 50%;
   transform: translateX(-50%);
-  border-width: 5px 5px 0;
-  border-style: solid;
-  border-color: #5436DA transparent;
+  border-top: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  border-bottom: 5px solid #5436DA;
 }
 
 .ai .profile {
@@ -98,34 +99,35 @@ body {
   object-fit: contain;
 }
 
-.user-message {
+.message {
+  position: relative;
   flex: 1;
-  background: #e1e8ed;
-  border-radius: 10px;
-  padding: 10px;
-  color: #333;
+
+  color: #dcdcdc;
   font-size: 20px;
-  max-width: 80%;
-  overflow-x: hidden;
-  white-space: pre-wrap; 
+
+  max-width: 100%;
+  overflow-x: scroll;
+
+  white-space: pre-wrap;
 
   -ms-overflow-style: none;
   scrollbar-width: none;
+
+  background-color: #007bff;
+  border-radius: 10px;
+  padding: 10px;
 }
 
-.ai-message {
-  flex: 1;
-  background: #0084ff;
-  border-radius: 10px;
-  padding: 10px;
-  color: #fff;
-  font-size: 20px;
-  max-width: 80%;
-  overflow-x: hidden;
-  white-space: pre-wrap; 
-
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+.message::before {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 20px;
+  border-top: 10px solid transparent;
+  border-right: 10px solid #007bff;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
 }
 
 /* hides scrollbar */
