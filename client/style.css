@@ -63,6 +63,9 @@ body {
   align-items: flex-start;
   gap: 10px;
 }
+.ai .chat {
+  margin-left: auto;
+}
 
 .profile {
   width: 36px;
