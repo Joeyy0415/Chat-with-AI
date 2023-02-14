@@ -68,13 +68,6 @@ body {
   gap: 10px;
 }
 
-.ai .chat {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 10px;
-  position: relative; /* make the parent container relative */
-}
 
 .profile {
   width: 36px;
