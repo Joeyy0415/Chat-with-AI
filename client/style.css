@@ -113,6 +113,7 @@ body {
   background-color: #007bff; /* changed user message holder color to blue */
   border-radius: 10px; /* added round corners to message holders */
   padding: 10px; /* added padding to message holders */
+  margin-left: auto
 } 
 
 .message {
