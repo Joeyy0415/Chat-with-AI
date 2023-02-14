@@ -152,4 +152,9 @@ textarea {
   font-size: 18px;
 
   padding: 10px;
-  background: transparent;
+  background: transparent;}
+
+form img {
+  width: 30px;
+  height: 30px;
+}
