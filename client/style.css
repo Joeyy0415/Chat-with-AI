@@ -94,22 +94,23 @@ body {
   width: 36px;
   height: 36px;
   border-radius: 5px;
-  background: #5436DA;
+  background: #89CFF0;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: 50px
 }
 
 .ai .message {
   flex: 1;
-  color: black;
+  color: #fff;
   font-size: 20px;
   max-width: 100%;
   overflow-x: scroll;
   white-space: pre-wrap;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  background-color: #4682B4;
+  background-color: #87CEEB;
   border-radius: 10px;
   padding: 10px;
   margin-right: 50px; /* adjust margin to leave space for the profile container */
