@@ -86,7 +86,7 @@ body {
   object-fit: contain;
 }
 
-.message {
+.ai .message {
   flex: 1;
 
   color: #dcdcdc;
@@ -101,6 +101,25 @@ body {
   scrollbar-width: none;
 
   background-color: #007bff; /* changed user message holder color to blue */
+  border-radius: 10px; /* added round corners to message holders */
+  padding: 10px; /* added padding to message holders */
+} 
+
+.message {
+  flex: 1;
+
+  color: #dcdcdc;
+  font-size: 20px;
+
+  max-width: 100%;
+  overflow-x: scroll;
+
+  white-space: pre-wrap;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  background-color: #c7c7cc; /* changed user message holder color to blue */
   border-radius: 10px; /* added round corners to message holders */
   padding: 10px; /* added padding to message holders */
 }
