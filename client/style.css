@@ -90,7 +90,7 @@ body {
 
 .ai .profile {
   position: absolute;
-  left: 0; /* position the profile container to the left */
+  right: 10px; /* position the profile container to the left */
   width: 36px;
   height: 36px;
   border-radius: 5px;
@@ -109,10 +109,10 @@ body {
   white-space: pre-wrap;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  background-color: #c7c7cc;
+  background-color: #4682B4;
   border-radius: 10px;
   padding: 10px;
-  margin-left: 50px; /* adjust margin to leave space for the profile container */
+  margin-right: 50px; /* adjust margin to leave space for the profile container */
 } 
 
 .message {
