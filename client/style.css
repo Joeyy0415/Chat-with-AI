@@ -89,7 +89,6 @@ body {
 }
 
 .ai .profile {
-  position: absolute;
   right: 10px; /* position the profile container to the left */
   width: 36px;
   height: 36px;
