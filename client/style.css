@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #fff; /* changed bot message holder color to gray */
+  background: #fff; /* changed bot message holder color to white */
 }
 
 .chat {
@@ -63,6 +63,7 @@ body {
   align-items: flex-start;
   gap: 10px;
 }
+
 .ai .chat {
    width: 100%;
   max-width: 1280px;
@@ -99,7 +100,7 @@ body {
   justify-content: center;
   align-items: center;
   
-  margin-left: auto; /* moves the profile container to the right end */
+  margin-right: auto; /* moves the profile container to the right end */
 }
 
 .profile img {
