@@ -89,10 +89,13 @@ body {
 }
 
 .ai .profile {
-  width: 36px;
+width: 36px;
   height: 36px;
   border-radius: 5px;
-  background: #89CFF0;
+
+  background-image: url("path/to/image.png");
+  background-size: cover;
+
   display: flex;
   justify-content: center;
   align-items: center;
